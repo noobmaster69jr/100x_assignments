@@ -12,7 +12,7 @@ const Assignment3 = () => {
     ]);
 
     // Your code starts here
-    const totalValue = 0;
+    const totalValue = useMemo(() => items.reduce( (prev, curr) => prev + curr.value, 0))
     // Your code ends here
     return (
         <div>

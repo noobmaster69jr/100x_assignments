@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.card-container {
+    border: 0.7px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 20px 30px;
+}
+
+h2, h3 {
+    color: rgba(12, 6, 6, 0.801);
+}
+.interest-list,.description {
+    color: rgb(136, 136, 136);
+}
+
+ul {
+    list-style: none;
+    padding-left : 0;
+}
+
+.social-handles {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+button {
+    border: none;
+    padding: 7px 12px;
+    color: #fff;
+    background: #5353da;
+    margin-right: 1rem;
+    border-radius: 4px;
+}
